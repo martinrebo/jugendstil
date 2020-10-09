@@ -1,0 +1,114 @@
+.App {
+    background-color: rgba(0, 0, 0, 0.089);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header " "content " "footer ";
+    background-color: #fff;
+    color: #444;
+    height: 100vh;
+}
+
+.content {
+    grid-area: content;
+    position: relative;
+}
+
+.content .home {
+    display: grid;
+    /* grid-gap: 50px; */
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    color: #444;
+    height: 90vh;
+}
+
+.header {
+    grid-area: header;
+    height: 5vh;
+}
+
+.footer {
+    grid-area: footer;
+    height: 5vh;
+}
+
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 50px; */
+    font-size: 150%;
+}
+
+.header, .footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.violet {
+    color: #af4bf2;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.home-img {
+    height: 100px;
+}
+
+@media only screen and (min-width: 980px) {
+    
+
+    .content .home {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "column " "column";
+        height: 80vh;
+    }
+    .content-item {
+        padding: 5% 10%;
+    }
+    .home-img {
+        width: 100%;
+        height: auto;
+    }
+    .header {
+        height: 10vh;
+    }
+    .footer {
+        height: 10vh;
+    }
+
+}

@@ -8,10 +8,6 @@ import AboutUs from '../Pages/AboutUs';
 import Home from '../Pages/Home';
 import Services from '../Pages/Services';
 
-interface Props {
-
-}
-
 export default function Routes(): ReactElement {
     return (
         <Router>

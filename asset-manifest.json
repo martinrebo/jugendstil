@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jugendstil/static/css/main.f6553906.chunk.css",
+    "main.js": "/jugendstil/static/js/main.3c798033.chunk.js",
+    "main.js.map": "/jugendstil/static/js/main.3c798033.chunk.js.map",
+    "runtime-main.js": "/jugendstil/static/js/runtime-main.e01554aa.js",
+    "runtime-main.js.map": "/jugendstil/static/js/runtime-main.e01554aa.js.map",
+    "static/js/2.fe3f1fb6.chunk.js": "/jugendstil/static/js/2.fe3f1fb6.chunk.js",
+    "static/js/2.fe3f1fb6.chunk.js.map": "/jugendstil/static/js/2.fe3f1fb6.chunk.js.map",
+    "index.html": "/jugendstil/index.html",
+    "precache-manifest.3261468151e47415cc1743665cf00fe7.js": "/jugendstil/precache-manifest.3261468151e47415cc1743665cf00fe7.js",
+    "service-worker.js": "/jugendstil/service-worker.js",
+    "static/css/main.f6553906.chunk.css.map": "/jugendstil/static/css/main.f6553906.chunk.css.map",
+    "static/js/2.fe3f1fb6.chunk.js.LICENSE.txt": "/jugendstil/static/js/2.fe3f1fb6.chunk.js.LICENSE.txt",
+    "static/media/circle.png": "/jugendstil/static/media/circle.fd5e94fd.png",
+    "static/media/geometry.gif": "/jugendstil/static/media/geometry.6e3c34d5.gif",
+    "static/media/geometry2.gif": "/jugendstil/static/media/geometry2.9e3a544e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e01554aa.js",
+    "static/js/2.fe3f1fb6.chunk.js",
+    "static/css/main.f6553906.chunk.css",
+    "static/js/main.3c798033.chunk.js"
+  ]
+}

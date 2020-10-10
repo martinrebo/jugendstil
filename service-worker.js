@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jugendstil/precache-manifest.3261468151e47415cc1743665cf00fe7.js"
+  "/jugendstil/precache-manifest.cc2cd2b9fa5d9d46dc6cde84eff1c1b8.js"
 );
 
 self.addEventListener('message', (event) => {

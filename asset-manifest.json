@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jugendstil/static/css/main.089e5553.chunk.css",
+    "main.css": "/jugendstil/static/css/main.1a38243e.chunk.css",
     "main.js": "/jugendstil/static/js/main.3c798033.chunk.js",
     "main.js.map": "/jugendstil/static/js/main.3c798033.chunk.js.map",
     "runtime-main.js": "/jugendstil/static/js/runtime-main.e01554aa.js",
@@ -8,9 +8,9 @@
     "static/js/2.fe3f1fb6.chunk.js": "/jugendstil/static/js/2.fe3f1fb6.chunk.js",
     "static/js/2.fe3f1fb6.chunk.js.map": "/jugendstil/static/js/2.fe3f1fb6.chunk.js.map",
     "index.html": "/jugendstil/index.html",
-    "precache-manifest.cc2cd2b9fa5d9d46dc6cde84eff1c1b8.js": "/jugendstil/precache-manifest.cc2cd2b9fa5d9d46dc6cde84eff1c1b8.js",
+    "precache-manifest.71e7e92da8413dbe7fb63af4dddd699c.js": "/jugendstil/precache-manifest.71e7e92da8413dbe7fb63af4dddd699c.js",
     "service-worker.js": "/jugendstil/service-worker.js",
-    "static/css/main.089e5553.chunk.css.map": "/jugendstil/static/css/main.089e5553.chunk.css.map",
+    "static/css/main.1a38243e.chunk.css.map": "/jugendstil/static/css/main.1a38243e.chunk.css.map",
     "static/js/2.fe3f1fb6.chunk.js.LICENSE.txt": "/jugendstil/static/js/2.fe3f1fb6.chunk.js.LICENSE.txt",
     "static/media/circle.png": "/jugendstil/static/media/circle.fd5e94fd.png",
     "static/media/geometry.gif": "/jugendstil/static/media/geometry.6e3c34d5.gif",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e01554aa.js",
     "static/js/2.fe3f1fb6.chunk.js",
-    "static/css/main.089e5553.chunk.css",
+    "static/css/main.1a38243e.chunk.css",
     "static/js/main.3c798033.chunk.js"
   ]
 }

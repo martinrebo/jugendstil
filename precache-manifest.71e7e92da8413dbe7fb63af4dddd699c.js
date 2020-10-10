@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "969b11ee3faaf7a055d7cafa527ade2a",
+    "revision": "9fcef96668d9f0cc1e17cdca45ef2f41",
     "url": "/jugendstil/index.html"
   },
   {
-    "revision": "1ec78dbdd30d6b2339b0",
-    "url": "/jugendstil/static/css/main.089e5553.chunk.css"
+    "revision": "ba3d7ed37790756c2471",
+    "url": "/jugendstil/static/css/main.1a38243e.chunk.css"
   },
   {
     "revision": "c91cbf0162d6d3b42130",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jugendstil/static/js/2.fe3f1fb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ec78dbdd30d6b2339b0",
+    "revision": "ba3d7ed37790756c2471",
     "url": "/jugendstil/static/js/main.3c798033.chunk.js"
   },
   {

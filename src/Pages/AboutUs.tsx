@@ -1,12 +1,29 @@
 import React, { ReactElement } from 'react'
-
+import geometry2 from '../assets/geometry2.gif'
+import Contact from '../Components/Contact/Contact'
+// import world from '../assets/world.gif'
+import Title from '../Components/Title/Title'
+import Main from '../Layout/Main'
 
 
 export default function AboutUs(): ReactElement {
     return (
-        <div>
-            <div>About us</div>
-            <p>Jugendstil_IO helps businesses master the digital reinvention of the industry when they use advanced digital technologies to transform core operations and unlock new revenue streams and business models. We support every aspect of our clients' multi-phase transformation, including workforce, customer experience, Research and development, engineering, business support, and ecosystems.</p>
-        </div>
+        <Main>
+            <div className="home">
+                <div className="content-item">
+                    <Title
+                        title="#ABOUT_US"
+                        description="We help businesses master the digital reinvention of the industry and unlock new revenue streams "
+                        linkTo="/"
+                        linkContent="Contact us" />
+                </div>
+                <div className="content-item grow">
+                    <img className="home-img rotate" src={geometry2} alt="" />
+                </div>
+                <div className="content-item">
+                    <Contact />
+                </div>
+            </div>
+        </Main>
     )
 }

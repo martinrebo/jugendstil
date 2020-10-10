@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react'
+import React, { ReactElement, ReactNode } from 'react'
 import {
     BrowserRouter as Router,
     Switch,
@@ -8,9 +8,14 @@ import AboutUs from '../Pages/AboutUs';
 import Home from '../Pages/Home';
 import Services from '../Pages/Services';
 
-export default function Routes(): ReactElement {
+interface Props {
+    children: ReactNode
+}
+
+export default function Routes({ children }: Props): ReactElement {
     return (
         <Router>
+            {children}
             <Switch>
                 <Route path="/about-us">
                     <AboutUs />
@@ -21,7 +26,6 @@ export default function Routes(): ReactElement {
                 <Route path="/">
                     <Home />
                 </Route>
-
             </Switch>
 
         </Router>

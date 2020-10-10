@@ -1,3 +1,5 @@
+/* Layout General Styles */
+
 .App {
     background-color: rgba(0, 0, 0, 0.089);
     text-align: center;
@@ -8,6 +10,29 @@
     color: #444;
     height: 100vh;
 }
+
+/* Header and Footer Styles */
+
+.header {
+    grid-area: header;
+    height: 5vh;
+    font-size: 0.5em;
+}
+
+.footer {
+    grid-area: footer;
+    height: 5vh;
+}
+
+.header, .footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Component Styles */
 
 .content {
     grid-area: content;
@@ -23,16 +48,15 @@
     height: 90vh;
 }
 
-.header {
-    grid-area: header;
-    height: 5vh;
+.content-item {
+    align-self: center;
 }
 
-.footer {
-    grid-area: footer;
-    height: 5vh;
-}
+/* Helper Styles */
 
+a:hover {
+    text-shadow: 0px 1px 3px #ff7547;
+}
 
 .box {
     background-color: #444;
@@ -40,38 +64,6 @@
     border-radius: 5px;
     /* padding: 50px; */
     font-size: 150%;
-}
-
-.header, .footer {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.topright {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.bottomright {
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 .violet {
@@ -87,9 +79,46 @@
     height: 100px;
 }
 
-@media only screen and (min-width: 980px) {
-    
 
+
+.rotate {
+    animation: rotation 10s infinite linear;
+    border-radius: 50%;
+}
+
+.grow {
+    animation: grow 5s linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        border: 5px solid #af4bf2;
+        background-color: #fff;
+    }
+    25% {
+        background-color: #af4bf2;
+    }
+    50% {
+        background-color: #ff7547;
+    }
+    100% {
+        transform: rotate(359deg);
+        border: 5px solid #ff7547;
+        background-color: #af4bf2;
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (min-width: 980px) {
     .content .home {
         display: grid;
         grid-gap: 10px;
@@ -101,14 +130,14 @@
         padding: 5% 10%;
     }
     .home-img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .header {
         height: 10vh;
+        font-size: 1em;
     }
     .footer {
         height: 10vh;
     }
-
 }

@@ -33,7 +33,10 @@ export default function Title({ title, description, linkTo, linkContent }: Props
                 <h1>{title}</h1>
             </Typist>
             {state.renderMsg ? (<Typist avgTypingDelay={20} cursor={cursorOptions} >
+                <div className="description">
                 <h2> {description} </h2>
+                </div>
+
                 <Link className="link" to={linkTo}> {linkContent}</Link>
             </Typist>) : null}
 

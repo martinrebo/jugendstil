@@ -7,17 +7,42 @@
 }
 
 .title {
-    min-height: 35vh;
+    height: 50vh;
 }
 
-/* .title h1 {
-    font-size: 1.5em;
+.title h1 {
+    font-weight: 900;
+    animation: color-change 3s infinite;
 }
+
 .title h2 {
-    font-size: 1.3em;
-} */
+    font-weight: 500;
+    padding: 0 5%;
+}
 
-@media only screen and (min-width: 980px) { 
+.description {
+    height: 25vh;
+}
+
+@keyframes color-change {
+    0% {
+        color: black;
+    }
+    25% {
+        color: #af4bf2;
+    }
+    50% {
+        color: #ff7547;
+    }
+    100% {
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .title {
+        height: 30vh;
+    }
     .title h1 {
         font-size: 3em;
     }

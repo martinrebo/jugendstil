@@ -7,17 +7,15 @@ import Routes from './Router/Routes';
 
 function App(): ReactElement {
   return (
-    <>
-      <Layout>
+
+    <Layout>
+      <Routes>
         <Header />
-        <Main>
-          <Routes />
-        </Main>
-
         <Footer />
-      </Layout>
+      </Routes>
+    </Layout>
 
-    </>
+
   );
 }
 

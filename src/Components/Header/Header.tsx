@@ -5,7 +5,7 @@ import React, { ReactElement } from 'react'
 export default function Header(): ReactElement {
     return (
         <div className="header">
-            JUGENDSTIL
+            <h1>JUGENDSTIL<span className="violet">_IO</span> </h1>
         </div>
     )
 }

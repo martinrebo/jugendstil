@@ -1,18 +1,30 @@
 import React, { ReactElement } from 'react'
+import geometry from '../assets/geometry.gif'
+import Contact from '../Components/Contact/Contact'
+// import world from '../assets/world.gif'
+import Title from '../Components/Title/Title'
+import Main from '../Layout/Main'
 
 
-function Services(): ReactElement {
+export default function Services(): ReactElement {
     return (
-        <div>
-            <div>SERVICES</div>
-            <p>Today's disruptive landscape requires your software to adapt, just like your organisation needs to. Not only do you need compatible code that performs well with legacy systems, but you also need specialised expertise - people with full-stack experience to ferry your vision into the future.</p>
-            <div>Enterprise Software Development </div>
-            <div>Customer Experience & UX Design</div>
-            <div>Strategy & IT Consulting</div>
-
-        </div>
+        <Main>
+            <div className="home">
+                <div className="content-item">
+                    <Title
+                        title="#SERVICES"
+                        description="Today's disruptive landscape requires your software to adapt, just like your organisation needs to."
+                        linkTo="/about-us"
+                        linkContent="discover who we are" />
+                </div>
+                <div className="content-item grow">
+                    <img className="home-img rotate" src={geometry} alt="" />
+                </div>
+                <div className="content-item">
+                    <Contact />
+                </div>
+            </div>
+        </Main>
     )
 }
-
-export default Services
 
